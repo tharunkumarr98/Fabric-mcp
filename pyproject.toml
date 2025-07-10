@@ -1,0 +1,15 @@
+[project]
+name = "fabric-mcp"
+version = "0.0.1"
+description = "This mcp server automates fabric development activities"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+]
+
+[build-system]
+requires = [ "hatchling",]
+build-backend = "hatchling.build"
+
+[project.scripts]
+fabric = "fabric:main"
